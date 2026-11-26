@@ -1,0 +1,207 @@
+<header class="navbar">
+  <a href="#home" class="logo">TIME<span>TRAVEL</span></a>
+
+  <nav>
+    <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+    <a href="#timeline" data-en="Timeline" data-ar="الخط الزمني">Timeline</a>
+    <a href="#machine" data-en="Time Machine" data-ar="آلة الزمن">Time Machine</a>
+    <a href="#quiz" data-en="Quiz" data-ar="اختبار">Quiz</a>
+  </nav>
+
+  <button id="languageBtn" class="language-btn">AR</button>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="eyebrow" data-en="A JOURNEY THROUGH DIGITAL HISTORY"
+         data-ar="رحلة عبر التاريخ الرقمي">A JOURNEY THROUGH DIGITAL HISTORY</p>
+
+      <h1 data-en="TIME TRAVEL:<br>THE INTERNET"
+          data-ar="رحلة عبر الزمن:<br>الإنترنت">TIME TRAVEL:<br>THE INTERNET</h1>
+
+      <p class="hero-text"
+         data-en="Explore the Past. Experience the Present. Discover the Future."
+         data-ar="اكتشف الماضي. عِش الحاضر. اكتشف المستقبل.">
+         Explore the Past. Experience the Present. Discover the Future.
+      </p>
+
+      <a href="#timeline" class="main-btn"
+         data-en="START YOUR JOURNEY →"
+         data-ar="ابدأ رحلتك ←">START YOUR JOURNEY →</a>
+    </div>
+
+    <div class="planet">
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="globe">🌐</div>
+      <span class="planet-label">INTERNET 2.0</span>
+    </div>
+  </section>
+
+  <section class="intro section">
+    <p class="eyebrow" data-en="WELCOME, TIME TRAVELER"
+       data-ar="مرحباً أيها المسافر عبر الزمن">WELCOME, TIME TRAVELER</p>
+
+    <h2 data-en="One invention changed everything."
+        data-ar="اختراع واحد غيّر كل شيء.">
+        One invention changed everything.
+    </h2>
+
+    <p data-en="The Internet connects billions of people around the world. But how did it all begin? Travel through time and discover its amazing story."
+       data-ar="يربط الإنترنت مليارات الأشخاص حول العالم. لكن كيف بدأت الحكاية؟ سافر عبر الزمن واكتشف قصته المذهلة.">
+       The Internet connects billions of people around the world. But how did it all begin? Travel through time and discover its amazing story.
+    </p>
+  </section>
+
+  <section class="section timeline-section" id="timeline">
+    <p class="eyebrow" data-en="THE JOURNEY" data-ar="الرحلة">THE JOURNEY</p>
+    <h2 data-en="The Evolution of the Internet"
+        data-ar="تطور الإنترنت">The Evolution of the Internet</h2>
+
+    <p class="section-description"
+       data-en="Choose a year to discover an important moment."
+       data-ar="اختَر سنة لاكتشاف حدث مهم.">
+       Choose a year to discover an important moment.
+    </p>
+
+    <div class="timeline-buttons" id="timelineButtons"></div>
+
+    <article class="history-card">
+      <div class="history-year" id="historyYear">1969</div>
+      <div>
+        <h3 id="historyTitle">The First Connection</h3>
+        <p id="historyText"></p>
+      </div>
+    </article>
+  </section>
+
+  <section class="machine-section section" id="machine">
+    <p class="eyebrow" data-en="TRAVEL THROUGH TIME"
+       data-ar="سافر عبر الزمن">TRAVEL THROUGH TIME</p>
+
+    <h2 data-en="Your Time Machine" data-ar="آلة الزمن الخاصة بك">
+      Your Time Machine
+    </h2>
+
+    <p data-en="Choose your destination and discover the Internet of that era."
+       data-ar="اختر وجهتك واكتشف الإنترنت في تلك الفترة.">
+       Choose your destination and discover the Internet of that era.
+    </p>
+
+    <div class="machine-box">
+      <div class="machine-icon">⏳</div>
+
+      <label for="yearSelect" data-en="SELECT A YEAR"
+             data-ar="اختر السنة">SELECT A YEAR</label>
+
+      <select id="yearSelect">
+        <option value="1969">1969</option>
+        <option value="1983">1983</option>
+        <option value="1989">1989</option>
+        <option value="1991">1991</option>
+        <option value="2000">2000</option>
+        <option value="2010">2010</option>
+        <option value="2020">2020</option>
+        <option value="2050">2050</option>
+      </select>
+
+      <button class="main-btn" id="travelBtn"
+        data-en="TRAVEL NOW →" data-ar="انطلق الآن ←">
+        TRAVEL NOW →
+      </button>
+
+      <div id="travelResult" class="travel-result"
+           data-en="Your journey is waiting..."
+           data-ar="رحلتك في انتظارك...">
+        Your journey is waiting...
+      </div>
+    </div>
+  </section>
+
+  <section class="section comparison">
+    <p class="eyebrow" data-en="THEN VS NOW" data-ar="الماضي مقابل الحاضر">
+      THEN VS NOW
+    </p>
+
+    <h2 data-en="Look How Far We Have Come"
+        data-ar="انظر إلى مدى تطورنا">
+      Look How Far We Have Come
+    </h2>
+
+    <div class="comparison-grid">
+      <div class="compare-card">
+        <span class="compare-icon">💻</span>
+        <h3 data-en="THEN" data-ar="سابقاً">THEN</h3>
+        <ul>
+          <li data-en="Slow connections" data-ar="اتصالات بطيئة">Slow connections</li>
+          <li data-en="Desktop computers" data-ar="حواسيب مكتبية">Desktop computers</li>
+          <li data-en="Limited websites" data-ar="مواقع محدودة">Limited websites</li>
+          <li data-en="Simple web pages" data-ar="صفحات بسيطة">Simple web pages</li>
+        </ul>
+      </div>
+
+      <div class="compare-card current">
+        <span class="compare-icon">📱</span>
+        <h3 data-en="NOW" data-ar="حالياً">NOW</h3>
+        <ul>
+          <li data-en="High-speed connections" data-ar="اتصالات عالية السرعة">High-speed connections</li>
+          <li data-en="Smartphones everywhere" data-ar="هواتف ذكية في كل مكان">Smartphones everywhere</li>
+          <li data-en="Billions of websites" data-ar="مليارات المواقع">Billions of websites</li>
+          <li data-en="Artificial intelligence" data-ar="الذكاء الاصطناعي">Artificial intelligence</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="future-section section">
+    <p class="eyebrow" data-en="BEYOND TODAY" data-ar="ما بعد اليوم">
+      BEYOND TODAY
+    </p>
+
+    <h2 data-en="Welcome to 2050?" data-ar="مرحباً بك في 2050؟">
+      Welcome to 2050?
+    </h2>
+
+    <div class="future-card">
+      <div class="future-icon">🚀</div>
+      <h3 data-en="The Internet of Tomorrow"
+          data-ar="إنترنت المستقبل">The Internet of Tomorrow</h3>
+      <p data-en="What could the Internet look like in 2050? Perhaps smarter digital assistants, more immersive virtual worlds, and even faster global connections. These are possibilities, not predictions."
+         data-ar="كيف يمكن أن يبدو الإنترنت في عام 2050؟ ربما مساعدين رقميين أكثر ذكاءً، وعوالم افتراضية أكثر واقعية، واتصالات عالمية أسرع. هذه مجرد احتمالات وليست تنبؤات مؤكدة.">
+         What could the Internet look like in 2050? Perhaps smarter digital assistants, more immersive virtual worlds, and even faster global connections. These are possibilities, not predictions.
+      </p>
+      <span class="future-tag">FUTURE IS UNWRITTEN</span>
+    </div>
+  </section>
+
+  <section class="section quiz-section" id="quiz">
+    <p class="eyebrow" data-en="TEST YOUR KNOWLEDGE"
+       data-ar="اختبر معلوماتك">TEST YOUR KNOWLEDGE</p>
+
+    <h2 data-en="Time Traveler Quiz" data-ar="اختبار المسافر عبر الزمن">
+      Time Traveler Quiz
+    </h2>
+
+    <div class="quiz-card">
+      <p class="question-number" id="questionNumber">QUESTION 1 / 4</p>
+      <h3 id="questionText"></h3>
+      <div id="answers" class="answers"></div>
+      <p id="quizFeedback"></p>
+      <button id="nextQuestion" class="main-btn" hidden
+        data-en="NEXT QUESTION →" data-ar="السؤال التالي ←">
+        NEXT QUESTION →
+      </button>
+      <p id="quizScore"></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="logo">TIME<span>TRAVEL</span></div>
+  <p data-en="Explore the Past. Experience the Present. Discover the Future."
+     data-ar="اكتشف الماضي. عِش الحاضر. اكتشف المستقبل.">
+     Explore the Past. Experience the Present. Discover the Future.
+  </p>
+  <p>© 2026 TIME TRAVEL: THE INTERNET</p>
+</footer>
